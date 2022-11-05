@@ -39,6 +39,11 @@ public class JTest3 {
 
         // 泛型不支持基本类型
 //        JTest3.<int>getValue(1);
+
+//        List<int>
+//
+//        ArrayList<Integer> integers = new ArrayList<>();
+//        List a = integers;
     }
 
     public static <T> T getValue(T a) {

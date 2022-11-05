@@ -14,6 +14,8 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("com.google.code.gson:gson:2.10")
+    // https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-reflect
+    runtimeOnly("org.jetbrains.kotlin:kotlin-reflect:1.7.20")
 }
 
 tasks.test {
